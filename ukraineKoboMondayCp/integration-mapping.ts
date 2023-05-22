@@ -8,7 +8,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
       },
       monday: {
         columnType: MondayColumnTypes.TEXT,
-        columnId: "text5-check-changes",
+        columnId: "text5-check-changes-test2",
       },
     }
 ]
