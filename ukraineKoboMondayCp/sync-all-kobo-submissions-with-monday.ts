@@ -17,8 +17,8 @@ export const SYNC_ALL_MODE = "syncAll";
 export const syncAllKoboSubmissionsWithMonday= async() => {
     const koboFormDataStructureResponse =
     await axios.get<KoboFormDataStructureResponse>(
-        //change
-      `https://kobo.humanitarianresponse.info/api/v2/assets/aSBgUCmuVW7BLnpnKbGPcF`,
+        
+      `https://kobo.humanitarianresponse.info/api/v2/assets/aBpuiweoRoxeT5Vp42SEf9`,
       {
         headers: { Authorization: `Token ${process.env.KOBO_API_TOKEN}` },
       }
@@ -27,8 +27,8 @@ export const syncAllKoboSubmissionsWithMonday= async() => {
 
   const koboSubmissionsResponse =
     await axios.get<KoboSubmissionEndpointResponse>(
-        //change
-      `https://kobo.humanitarianresponse.info/api/v2/assets/aSBgUCmuVW7BLnpnKbGPcF/data`,
+       
+      `https://kobo.humanitarianresponse.info/api/v2/assets/aBpuiweoRoxeT5Vp42SEf9/data`,
       {
         headers: { Authorization: `Token ${process.env.KOBO_API_TOKEN}` },
       }

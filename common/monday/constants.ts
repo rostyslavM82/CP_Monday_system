@@ -3,8 +3,7 @@ export const ITEM_UPDATED_EVENT_TYPE = "update_column_value";
 
 export const CP_BOARD_MOVED_STATUS = "True - CP board";
 
-//change
-export const CP_BOARD_ID = "000000000";
+export const CP_BOARD_ID = "1197599771";
 
 export const boardIdMovedStatusMapping = {
     [CP_BOARD_ID]: CP_BOARD_MOVED_STATUS

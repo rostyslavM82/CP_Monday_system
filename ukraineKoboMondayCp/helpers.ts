@@ -7,9 +7,9 @@ export const CATCH_ALL_VALUE = "_CATCH_ALL_";
 export const markKoboSubmissionAsProcessed = (
   koboSubmissionId: string | number
 ) => {
-  //change
+ 
   return axios.patch(
-    `https://kobo.humanitarianresponse.info/api/v2/assets/aSBgUCmuVW7BLnpnKbGPcF/data/${koboSubmissionId}/validation_status/`,
+    `https://kobo.humanitarianresponse.info/api/v2/assets/aBpuiweoRoxeT5Vp42SEf9/data/${koboSubmissionId}/validation_status/`,
     {
       "validation_status.uid": "validation_status_not_approved",
     },
