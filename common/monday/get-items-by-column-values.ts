@@ -20,6 +20,12 @@ const itemsByColumnValuesQuery = gql`
         id
         name
       }
+      column_values {
+        id
+        title
+        value
+        text
+      }
     }
   }
 `;
