@@ -10,5 +10,15 @@ export const integrationMapping: IntegrationMappingItem[] = [
         columnType: MondayColumnTypes.TEXT,
         columnId: "text3",
       },
-    }
+    },
+    {
+      kobo: {
+        questionType: KoboQuestionTypes.TEXT,
+        questionId: "_id",
+      },
+      monday: {
+        columnType: MondayColumnTypes.TEXT,
+        columnId: "text_1",
+      },
+    },
 ]
