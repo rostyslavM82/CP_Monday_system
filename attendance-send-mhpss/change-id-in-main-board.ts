@@ -26,18 +26,23 @@ export const changeIdInMainBoard = async (
       return "error-catch"
     }
     try {
-//NEEDD
-      return await getItemsByColumnValues({
-        boardId: 1197599771,
-        columnId: "text8",
-        columnValue:"432342"
-      });
 
-      // await changeItemColumnValues({
-      //   boardId: 1197599771,
-      //   itemId: 1197599776,
-      //   columnValues: {"text799":"kek"}
-      // });
+      let submissionId = koboSubmission._id;
+//NEEDD
+      let vasya = await getItemsByColumnValues({
+        boardId: 1197599771,
+        columnId: "numbers",
+        columnValue: submissionId
+      });
+      let tmp2 = vasya[0].id
+      let tmp = vasya[0]["column_values"].find(x=>x.id === "text799").text;
+      // return vasya; 
+
+      changeItemColumnValues({
+        boardId: 1197599771,
+        itemId: tmp2,
+        columnValues: {"text799": tmp+"test2"}
+      });
     }
     
     catch(error) {
