@@ -19,7 +19,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   //oblast
   {
     kobo: {
-      questionType: KoboQuestionTypes.TEXT,
+      questionType: KoboQuestionTypes.SELECT_ONE,
       questionId: "__005",
     },
     monday: {
@@ -107,6 +107,78 @@ export const integrationMapping: IntegrationMappingItem[] = [
       { koboValue: "_", mondayValue: "Boy" },
       { koboValue: "__1", mondayValue: "Girl" },
       { koboValue: "__2", mondayValue: "Other" },
+      { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
+    ],
+  },
+  //Gender
+  {
+    kobo: {
+      questionType: KoboQuestionTypes.SELECT_ONE,
+      questionId: "__012",
+    },
+    monday: {
+      columnType: MondayColumnTypes.STATUS,
+      columnId: "status5",
+    },
+    optionMapping: [
+      { koboValue: "_", mondayValue: "Boy" },
+      { koboValue: "__1", mondayValue: "Girl" },
+      { koboValue: "__2", mondayValue: "Other" },
+      { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
+    ],
+  },
+  //Gender
+  {
+    kobo: {
+      questionType: KoboQuestionTypes.SELECT_ONE,
+      questionId: "__012",
+    },
+    monday: {
+      columnType: MondayColumnTypes.STATUS,
+      columnId: "status5",
+    },
+    optionMapping: [
+      { koboValue: "_", mondayValue: "Boy" },
+      { koboValue: "__1", mondayValue: "Girl" },
+      { koboValue: "__2", mondayValue: "Other" },
+      { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
+    ],
+  },
+  //Age
+  {
+    kobo: {
+      questionType: KoboQuestionTypes.INTEGER,
+      questionId: "__013",
+    },
+    monday: {
+      columnType: MondayColumnTypes.NUMBERS,
+      columnId: "numbers3",
+    },
+  },
+  //Birth date
+  {
+    kobo: {
+      questionType: KoboQuestionTypes.DATE,
+      questionId: "__014",
+    },
+    monday: {
+      columnType: MondayColumnTypes.DATE,
+      columnId: "date_1",
+    },
+  },
+  //IDP status
+  {
+    kobo: {
+      questionType: KoboQuestionTypes.SELECT_ONE,
+      questionId: "__015",
+    },
+    monday: {
+      columnType: MondayColumnTypes.STATUS,
+      columnId: "status3",
+    },
+    optionMapping: [
+      { koboValue: "_", mondayValue: "Yes" },
+      { koboValue: "__1", mondayValue: "No" },
       { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
     ],
   },
