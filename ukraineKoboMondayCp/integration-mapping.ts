@@ -370,7 +370,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
       questionId: "text_tm2mm82",
     },
     monday: {
-      columnType: MondayColumnTypes.STATUS,
+      columnType: MondayColumnTypes.TEXT,
       columnId: "text95",
     },
   },
@@ -415,8 +415,8 @@ export const integrationMapping: IntegrationMappingItem[] = [
   //Partner Name
   {
     kobo: {
-      questionType: KoboQuestionTypes.SELECT_MULTIPLE,
-      questionId: "__002",
+      questionType: KoboQuestionTypes.SELECT_ONE,
+      questionId: "_partner_name",
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
