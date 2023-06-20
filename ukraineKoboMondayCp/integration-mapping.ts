@@ -25,8 +25,8 @@ export const integrationMapping: IntegrationMappingItem[] = [
       labelIndex: 1,
     },
     monday: {
-      columnType: MondayColumnTypes.TEXT,
-      columnId: "text",
+      columnType: MondayColumnTypes.DROPDOWN,
+      columnId: "dropdown9",
     },
   },
   //Raion
@@ -154,11 +154,11 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "_",
+      questionId: "study_where",
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
-      columnId: "study_where",
+      columnId: "status93",
     },
     optionMapping: [
       { koboValue: "school", mondayValue: "School" },
@@ -248,7 +248,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "text_is04h2",
+      questionId: "text_is04h24",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -420,7 +420,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
-      columnId: "color",
+      columnId: "status20",
     },
     optionMapping: [
       {
