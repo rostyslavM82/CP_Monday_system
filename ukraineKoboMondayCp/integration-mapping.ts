@@ -20,7 +20,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "__005",
+      questionId: "select_one_vr14o91",
       optionsListId: "ab1op10",
       labelIndex: 1,
     },
@@ -33,7 +33,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__006",
+      questionId: "text_np01u25",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -44,7 +44,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__007",
+      questionId: "text_ow7gc00",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -55,7 +55,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__008",
+      questionId: "text_ax47v18",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -66,7 +66,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__009",
+      questionId: "text_dh8or18",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -77,7 +77,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.DATE,
-      questionId: "__010",
+      questionId: "date_cw96v02",
     },
     monday: {
       columnType: MondayColumnTypes.DATE,
@@ -88,7 +88,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__011",
+      questionId: "text_dm3ab67",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -99,41 +99,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "__012",
-    },
-    monday: {
-      columnType: MondayColumnTypes.STATUS,
-      columnId: "status5",
-    },
-    optionMapping: [
-      { koboValue: "_", mondayValue: "Boy" },
-      { koboValue: "__1", mondayValue: "Girl" },
-      { koboValue: "__2", mondayValue: "Other" },
-      { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
-    ],
-  },
-  //Gender
-  {
-    kobo: {
-      questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "__012",
-    },
-    monday: {
-      columnType: MondayColumnTypes.STATUS,
-      columnId: "status5",
-    },
-    optionMapping: [
-      { koboValue: "_", mondayValue: "Boy" },
-      { koboValue: "__1", mondayValue: "Girl" },
-      { koboValue: "__2", mondayValue: "Other" },
-      { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
-    ],
-  },
-  //Gender
-  {
-    kobo: {
-      questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "__012",
+      questionId: "select_one_li8yh67",
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
@@ -150,7 +116,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.INTEGER,
-      questionId: "__013",
+      questionId: "integer_zg4ez12",
     },
     monday: {
       columnType: MondayColumnTypes.NUMBERS,
@@ -161,7 +127,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.DATE,
-      questionId: "__014",
+      questionId: "date_gc9zu20",
     },
     monday: {
       columnType: MondayColumnTypes.DATE,
@@ -172,23 +138,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "__015",
-    },
-    monday: {
-      columnType: MondayColumnTypes.STATUS,
-      columnId: "status3",
-    },
-    optionMapping: [
-      { koboValue: "_", mondayValue: "Yes" },
-      { koboValue: "__1", mondayValue: "No" },
-      { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
-    ],
-  },
-  //IDP status
-  {
-    kobo: {
-      questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "__015",
+      questionId: "select_one_ea5en26",
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
@@ -208,10 +158,10 @@ export const integrationMapping: IntegrationMappingItem[] = [
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
-      columnId: "status93",
+      columnId: "study_where",
     },
     optionMapping: [
-      { koboValue: "_", mondayValue: "School" },
+      { koboValue: "school", mondayValue: "School" },
       { koboValue: "__1", mondayValue: "Kindergarten" },
       { koboValue: "__2", mondayValue: "Other" },
       { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
@@ -221,7 +171,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__016",
+      questionId: "text_uz7rb80",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -232,7 +182,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__017",
+      questionId: "text_vk9ii27",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -243,7 +193,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__018",
+      questionId: "text_xv5av08",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -254,7 +204,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__019",
+      questionId: "text_ww9zs96",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -265,7 +215,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__020",
+      questionId: "text_ff4ne73",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -276,7 +226,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__021",
+      questionId: "text_nz4az46",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -298,7 +248,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__022",
+      questionId: "text_is04h2",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -309,7 +259,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__023",
+      questionId: "text_gy6wm81",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -331,7 +281,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "__024",
+      questionId: "select_one_zj0uk45",
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
@@ -347,7 +297,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "__024",
+      questionId: "_1",
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
@@ -374,7 +324,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "__025",
+      questionId: "select_one_ob8ml91",
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
@@ -393,7 +343,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
       questionId: "__003",
     },
     monday: {
-      columnType: MondayColumnTypes.STATUS,
+      columnType: MondayColumnTypes.DROPDOWN,
       columnId: "dropdown",
     },
   },
@@ -417,7 +367,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__026",
+      questionId: "text_tm2mm82",
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
@@ -428,7 +378,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__027",
+      questionId: "text_tr1gn52",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -439,7 +389,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__030",
+      questionId: "text_pb8ly43",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -465,8 +415,8 @@ export const integrationMapping: IntegrationMappingItem[] = [
   //Partner Name
   {
     kobo: {
-      questionType: KoboQuestionTypes.SELECT_ONE,
-      questionId: "_SCI",
+      questionType: KoboQuestionTypes.SELECT_MULTIPLE,
+      questionId: "__002",
     },
     monday: {
       columnType: MondayColumnTypes.STATUS,
@@ -500,7 +450,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__002",
+      questionId: "text_za9hu55",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
@@ -511,7 +461,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
   {
     kobo: {
       questionType: KoboQuestionTypes.TEXT,
-      questionId: "__031",
+      questionId: "text_ov7sf49",
     },
     monday: {
       columnType: MondayColumnTypes.TEXT,
