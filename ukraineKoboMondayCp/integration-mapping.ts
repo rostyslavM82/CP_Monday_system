@@ -22,7 +22,6 @@ export const integrationMapping: IntegrationMappingItem[] = [
       questionType: KoboQuestionTypes.SELECT_ONE,
       questionId: "select_one_vr14o91",
       optionsListId: "ab1op10",
-      labelIndex: 1,
     },
     monday: {
       columnType: MondayColumnTypes.DROPDOWN,
