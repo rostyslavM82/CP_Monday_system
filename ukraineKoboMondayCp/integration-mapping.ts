@@ -22,6 +22,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
       questionType: KoboQuestionTypes.SELECT_ONE,
       questionId: "select_one_vr14o91",
       optionsListId: "ab1op10",
+      labelIndex:0
     },
     monday: {
       columnType: MondayColumnTypes.DROPDOWN,
@@ -423,12 +424,12 @@ export const integrationMapping: IntegrationMappingItem[] = [
     },
     optionMapping: [
       {
-        koboValue: "mariupol_city_center_of_support_and_deve",
+        koboValue: "mariupol",
         mondayValue: "Mariupol City Center of Support and Development of SMEs",
       },
       { koboValue: "dropwd", mondayValue: "DROPWD" },
       { koboValue: "civil_initiatives", mondayValue: "Civil Initiatives" },
-      { koboValue: "cf__slavic_heart", mondayValue: "CF Slavic Heart" },
+      { koboValue: "slavic_heart", mondayValue: "CF Slavic Heart" },
       {
         koboValue: "league_of_modern_women",
         mondayValue: "League of modern women",
@@ -437,7 +438,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
       { koboValue: "poruch", mondayValue: "Poruch" },
       {
         koboValue: "pectoral__zelo_art_centre",
-        mondayValue: "Pectoral- Zelo Art Centre",
+        mondayValue: "Pectoral Zelo Art Centre",
       },
       { koboValue: "red_cross", mondayValue: "Red Cross" },
       { koboValue: "cf_posmishka_ua", mondayValue: "CF Posmishka UA" },
