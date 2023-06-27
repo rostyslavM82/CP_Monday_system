@@ -16,7 +16,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
       columnId: "numbers",
     },
   },
-  //oblast
+  //oblast1
   {
     kobo: {
       questionType: KoboQuestionTypes.SELECT_ONE,
