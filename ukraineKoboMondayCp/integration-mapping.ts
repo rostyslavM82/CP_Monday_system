@@ -386,6 +386,22 @@ export const integrationMapping: IntegrationMappingItem[] = [
       columnId: "text5",
     },
   },
+  //CFS/Mobile
+  {
+    kobo: {
+      questionType: KoboQuestionTypes.SELECT_ONE,
+      questionId: "select_one_nj52z48",
+    },
+    monday: {
+      columnType: MondayColumnTypes.STATUS,
+      columnId: "status33",
+    },
+    optionMapping: [
+      { koboValue: "CFS", mondayValue: "CFS" },
+      { koboValue: "Mobile", mondayValue: "Mobile" },
+      { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
+    ],
+  },
   //Partner/SCI
   {
     kobo: {
