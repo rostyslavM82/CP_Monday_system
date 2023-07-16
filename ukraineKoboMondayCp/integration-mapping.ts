@@ -359,7 +359,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
     },
     optionMapping: [
       { koboValue: "sci", mondayValue: "SCI" },
-      { koboValue: "__", mondayValue: "Partner" },
+      { koboValue: "partner", mondayValue: "Partner" },
       { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
     ],
   },
