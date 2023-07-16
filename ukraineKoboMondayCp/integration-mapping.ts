@@ -443,7 +443,7 @@ export const integrationMapping: IntegrationMappingItem[] = [
       { koboValue: "bilozerka", mondayValue: "Bilozerka" },
       { koboValue: "poruch", mondayValue: "Poruch" },
       {
-        koboValue: "pectoral__zelo_art_centre",
+        koboValue: "pectoral_zelo_art_centre",
         mondayValue: "Pectoral Zelo Art Centre",
       },
       { koboValue: "red_cross", mondayValue: "Red Cross" },
