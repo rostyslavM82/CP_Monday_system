@@ -69,12 +69,14 @@ export const integrationMapping: IntegrationMappingItem[] = [
   //Location (Institution)
   {
     kobo: {
-      questionType: KoboQuestionTypes.TEXT,
+      questionType: KoboQuestionTypes.SELECT_ONE,
       questionId: "_zaklad",
+      optionsListId: "dd0qk90",
+      labelIndex:0
     },
     monday: {
-      columnType: MondayColumnTypes.TEXT,
-      columnId: "text_19",
+      columnType: MondayColumnTypes.DROPDOWN,
+      columnId: "dropdown4",
     },
   },
   //Registration Date
