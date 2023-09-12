@@ -18,7 +18,7 @@ export const syncAllKoboSubmissionsWithMonday= async() => {
     const koboFormDataStructureResponse =
     await axios.get<KoboFormDataStructureResponse>(
         
-      `https://kobo.humanitarianresponse.info/api/v2/assets/aBpuiweoRoxeT5Vp42SEf9`,
+      `https://kobo.savethechildren.net/api/v2/assets/aCZsVKcft4pRKTWsjMw9tx`,
       {
         headers: { Authorization: `Token ${process.env.KOBO_API_TOKEN}` },
       }
@@ -28,7 +28,7 @@ export const syncAllKoboSubmissionsWithMonday= async() => {
   const koboSubmissionsResponse =
     await axios.get<KoboSubmissionEndpointResponse>(
        
-      `https://kobo.humanitarianresponse.info/api/v2/assets/aBpuiweoRoxeT5Vp42SEf9/data`,
+      `https://kobo.savethechildren.net/api/v2/assets/aCZsVKcft4pRKTWsjMw9tx/data`,
       {
         headers: { Authorization: `Token ${process.env.KOBO_API_TOKEN}` },
       }
