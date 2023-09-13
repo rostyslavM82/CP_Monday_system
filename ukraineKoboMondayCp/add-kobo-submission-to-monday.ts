@@ -13,7 +13,7 @@ export const addKoboSubmissionToMonday = async (
   const koboFormDataStructureResponse =
     await axios.get<KoboFormDataStructureResponse>(
      
-      `https://kobo.humanitarianresponse.info/api/v2/assets/aBpuiweoRoxeT5Vp42SEf9`,
+      `https://kobo.savethechildren.net/api/v2/assets/aCZsVKcft4pRKTWsjMw9tx`,
       {
         headers: { Authorization: `Token ${process.env.KOBO_API_TOKEN}` },
       }
