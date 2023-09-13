@@ -377,6 +377,40 @@ export const integrationMapping: IntegrationMappingItem[] = [
       columnId: "text6",
     },
   },
+    //Donor name
+    {
+      kobo: {
+        questionType: KoboQuestionTypes.SELECT_ONE,
+        questionId: "donor",
+      },
+      monday: {
+        columnType: MondayColumnTypes.STATUS,
+        columnId: "status55",
+      },
+      optionMapping: [
+        { koboValue: "hf", mondayValue: "HF" },
+        { koboValue: "scn", mondayValue: "SCN" },
+        { koboValue: "bha", mondayValue: "BHA" },
+        { koboValue: "echo", mondayValue: "ECHO" },
+        { koboValue: "sho", mondayValue: "SHO" },
+        { koboValue: "swisssolidarity", mondayValue: "SwissSolidarity" },
+        { koboValue: "sida", mondayValue: "SIDA" },
+        { koboValue: "eu_delegation", mondayValue: "EU Delegation" },
+        { koboValue: "iha_gac", mondayValue: "IHA-GAC" },
+        { koboValue: CATCH_ALL_VALUE, mondayValue: "Unknown" },
+      ],
+    },
+  //Other donor name
+  {
+    kobo: {
+      questionType: KoboQuestionTypes.TEXT,
+      questionId: "other_donor",
+    },
+    monday: {
+      columnType: MondayColumnTypes.TEXT,
+      columnId: "text4",
+    },
+  },
   //Name of the SCI specialist
   {
     kobo: {
